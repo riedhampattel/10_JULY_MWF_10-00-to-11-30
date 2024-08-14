@@ -2,7 +2,7 @@
 int main()
 {
 	int a[100][100],b[100][100],ans[100][100];
-	int i,j,row,col;
+	int i,j,k,row,col;
 	char ch;
 	printf("\nEnter the count of rows = ");
 	scanf("%d",&row);
@@ -82,6 +82,28 @@ int main()
 				for(j=0;j<col;j++)
 				{
 					printf("%d ",ans[i][j]);
+				}
+				printf("\n");
+			}
+		break;
+		case '*' :
+			for(i=0;i<row;i++)
+			{
+				for(j=0;j<col;j++)
+				{
+					mul[i][j] = 0;
+					for(k=0;k<col;k++)
+					{
+						mul[i][j] = mul[i][j] + (a[i][k]*b[k][j]);
+					}
+				}
+			}
+			printf("\nAnswer of Multiplication is :=\n");
+			for(i=0;i<row;i++)
+			{
+				for(j=0;j<col;j++)
+				{
+					printf("%d ",mul[i][j]);
 				}
 				printf("\n");
 			}
