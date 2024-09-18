@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+//Simple inheritance
 class Parent//Base class
 {
 	public :

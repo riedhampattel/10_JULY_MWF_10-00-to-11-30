@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+//Multiple inheritance
 class Parent1
 {
 	public :
