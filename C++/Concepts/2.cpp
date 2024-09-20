@@ -5,9 +5,9 @@ class Demo
 {
 	private :
 		string name = "Rahul";
-		int x = 10;	
+		int x = 101;	
 	public :
-		friend void display(Demo &obj);	
+		friend void display(Demo &obj);
 };
 void display(Demo &obj)
 {
