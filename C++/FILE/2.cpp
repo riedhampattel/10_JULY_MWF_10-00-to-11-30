@@ -1,6 +1,7 @@
 #include<iostream>
 #include<fstream>
 using namespace std;
+//ifstream ---> read files
 int main()
 {
 	string text;

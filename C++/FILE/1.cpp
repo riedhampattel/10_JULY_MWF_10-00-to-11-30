@@ -1,7 +1,7 @@
 #include<iostream>
 #include<fstream>
-//ofstream ---> create,write
 using namespace std;
+//ofstream ---> create,write
 int main()
 {
 	ofstream MyFile1("first.txt");
