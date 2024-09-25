@@ -2,10 +2,9 @@
 using namespace std;
 class Student
 {
-	private :
+	public :
 		int roll,sub1,sub2;
 		string name;
-	public :
 		Student(int roll,string name,int sub1,int sub2)
 		{
 			this->roll = roll;
@@ -38,18 +37,17 @@ class Address
 		}
 		void display()
 		{
-			cout<<"\nStudent name = "<<ref->name;
-			cout<<"\nGrade = "<<ref->grade();
+			cout<<"\nName = "<<ref->name;
 			cout<<"\nCity = "<<city;
 		}
 };
 int main()
 {
 	Student s1(101,"Rahul",75,65);
-	Address a1("Ahmedabad",&s2);
+	Address a1("Ahmedabad",&s1);
 	
 	Student s2(102,"Priya",85,90);
-	Address a2("Surat",&s1);
+	Address a2("Surat",&s2);
 	
 	a1.display();
 	return 0;
