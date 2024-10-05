@@ -30,10 +30,6 @@ select * from employees where first_name like '%e%';
 
 select * from employees where first_name like '%e_';
 
-jan
-jun
-jul
-
 select * from employees where hire_date like '%-J_n-%';
 
 select * from employees where hire_date like '%-Ju_-%';
