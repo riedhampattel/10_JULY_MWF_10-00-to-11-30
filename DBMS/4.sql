@@ -22,6 +22,8 @@ select * from employees where salary>=10000 and salary<=20000;
 
 select * from employees where department_id in (90,60,50);
 
+select * from employees where department_id not in (90,60,50);
+
 select * from employees where (department_id,manager_id) in ((90,100),(60,110));
 
 select * from employees where (department_id,manager_id) not in ((90,100),(60,110));
