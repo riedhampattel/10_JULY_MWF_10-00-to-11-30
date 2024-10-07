@@ -29,3 +29,19 @@ select * from orders;
 select * from user
 natural join
 orders;
+
+select user.id,user.name,orders.order_number
+from user left join
+orders on user.id = orders.id;
+
+select user.id,user.name,orders.order_number
+from user right join
+orders on user.id = orders.id;
+
+select * from user
+cross join
+orders order by 5;
+
+select * from user
+union all
+select * from orders;
