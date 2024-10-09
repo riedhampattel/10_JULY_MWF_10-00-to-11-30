@@ -1,0 +1,163 @@
+C Programs :=
+Write a c program to declare 3 numbers, characters ,and floats as an input from the user and display it in output.
+
+Write a c program to take 3 numbers, characters ,and floats as an input from the user and display it in output.
+
+Write a c program to swap 2 values using third variable
+
+Write a c program to swap 2 values without using third variable (Use + and -)
+
+Write a c program to swap 2 values without using third variable (Use * and /)
+
+Write a c program to make simple calculator using 5 arithmetic operators
+
+Write a c program to make menu driven calculator with 5 arithmetic operator functionality
+
+Write a c program to take two numbers from the user and display biggest number using conditional statement
+
+Write a c program to take two numbers from the user and display biggest number using ternary operator
+
+Write a c program to take a number from the user and check whether it is positive, negative or nuetral
+
+Write a c program to take 3 numbers from the user and display the biggest number using logical operator
+
+Write a c program to take 3 numbers from the user and display the biggest number using nested coditional statement
+
+Write a c program to take positive numbers from the user untill user enteres -1 and display sum, average, minimum and maximum and count of all numbers.
+
+Write a c program to take 2 numbers from the user and print all the numbers between those numbers
+
+Write a c program to take 2 numbers from the user and if user enteres number 1 bigger than number 2 then print all the numbers in reverse order else print in normal order
+
+Write a c program to take a number from the user and display it's factorial.
+
+Write a c program to take one input from the user and check whether the number is prime or not?
+
+Write a c program to take one input from the user and check whether the number is strong or not?
+
+Write a c program to take one input from the user and check whether the number is Armstrong or not?
+
+Write a c program to take one input from the user and check whether the number is perfect or not?
+
+Write a c program to take one input from the user and check whether the number is pallindrome or not?
+
+Write a c program to take 2 numbers from the user and print all the prime numbers and not prime numbers between them.(Use switch case)
+
+Write a c program to take terms from the user and print fibonaci series.
+
+Write a c program to take row and column number from the user and print the following pattern.
+
+* * * *
+* * * *
+* * * *
+* * * *
+
+Write a c program to take row numbers from the user and print the following pyramid pattern.
+
+*
+* *
+* * *
+* * * *
+* * * * *
+
+Write a c program to take row numbers from the user and print the following pyramid pattern.
+
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+Write a c program to take row numbers from the user and print the following pyramid pattern.
+
+1
+2 2
+3 3 3
+4 4 4 4
+5 5 5 5 5
+
+Write a c program to take row numbers from the user and print the following pyramid pattern.
+
+1
+2 3
+3 4 5
+4 5 6 7
+5 6 7 8 9
+
+Write a c program to take row numbers from the user and print the following pyramid pattern.
+
+1
+2 3
+4 5 6
+7 8 9 10
+
+Write a c program to take row numbers from the user and print the following pyramid pattern.
+
+1
+1 0
+1 0 1
+1 0 1 0
+1 0 1 0 1
+
+Write a c program to take row numbers from the user and print the following pyramid pattern.
+
+1
+0 1
+1 0 1
+0 1 0 1
+1 0 1 0 1
+
+Write a c program to take row numbers from the user and print the following pyramid pattern.
+
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
+
+Write a c program to take size of an array and elements from the user and print array in reverse order.
+
+Write a c program to take size of an array and elements from the user and print the sum and average of all the elements
+
+Write a c program to take size of an array and elements from the user and display only unique elements of an array.
+
+Write a c program to take size of an array and elements from the user and sort in ascending and descending order
+
+Write a c program to take row and column numbers of 2D array and elements from the user and display the matrix.
+
+Write a c program to take row and column numbers of 2D array and elements from the user and make one calculator with addition, subtraction and multiplication facilities using control statement.
+
+Write a c program to take row and column numbers of 2D array and elements from the user and print transposed array.
+
+Write a c program to take row and column numbers of 2D array and elements from the user and perform addition of both diagonal elements.
+
+Write a c program to make a calculator using 4 types of functions (use control statement)
+
+Write a c program to swap values using third variable and pointer.
+
+Write a c program to implement all the inbuilt string fuctions.
+
+Write a c program to find string length without using inbuilt strlen() function use user defined function.
+
+Write a c program to implement strcpy() function without using inbuilt strcpy() function use user defined function.
+
+Write a c program to implement strcmp() without using inbuilt strcmp() function use user defined function.
+
+Write a c program to implement strrev() function without using inbuilt strrev() function use user defined function.
+
+Write a c program to implement strcat() function without using inbuilt strcat() function use user defined function.
+
+Write a c program to take inputs from the user and display below given output using structure.
+--------------------------------------------------------------
+		Tops Technologies
+--------------------------------------------------------------
+Sr.no.	Marks(/300)	Percentage(/100)	Grade(A,B,C)
+--------------------------------------------------------------
+1	225			75.00%			A
+2	275			91.66%			A	
+3	152			50.66%			B
+4	236			78.66%			A
+5	285			95.00%			A
+--------------------------------------------------------------
+
+Write a c program to take two numbers from the user and print the whole terminal output in the file
