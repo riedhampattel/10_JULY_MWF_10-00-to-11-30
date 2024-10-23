@@ -147,5 +147,108 @@ header nav a:hover
 .skill-container
 {
     display: grid;
-    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    margin: 6rem 5rem 3rem 9.5rem;
+}
+.skill-container div
+{
+    border: 3px solid brown;
+    width: 250px;
+    height: 280px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px brown;
+    transition: 0.5s ease;
+    margin-bottom: 2rem;
+}
+.skill-container div:hover
+{
+    box-shadow: 0px 0px 18px rgb(0, 255, 255);
+    border: 3px solid rgb(0, 255, 255);
+    transform: scale(1.1);
+}
+.skill-container div h3
+{
+    font-size: 30px;
+    margin-top: 1.5rem;
+}
+.skill-container div p
+{
+    font-size: 20px;
+    margin-top: 0.5rem;
+    background-color: transparent;
+}
+.edu-content
+{
+    margin-top: 6rem;
+}
+.edu-content,.edu-content th,.edu-content td
+{
+    border: 1px solid brown;
+}
+.edu-content th
+{
+    font-size: 20px;
+    padding: 1rem;
+}
+.edu-content td
+{
+    font-size: 18px;
+    padding: 1rem;
+}
+.contact-details
+{
+    margin-top: 3.5rem;
+    font-size: 30px;
+}
+.contact-details tr td i
+{
+    margin-right: 2rem;
+}
+.contact-details tr
+{
+    margin-bottom: 1.5rem;
+    transition: 0.5s ease;
+}
+.contact-details tr:hover
+{
+    text-shadow: 0px 0px 15px rgb(0, 255, 255);
+}
+hr
+{
+    width: 1200px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.post
+{
+    color: brown;
+}
+.post::before
+{
+    animation: 10s words infinite;
+    content: " ";
+}
+.post::after
+{
+    content: " ";
+}
+@keyframes words
+{
+    0%,25%
+    {
+        content: "software developer";
+    }
+    25%,50%
+    {
+        content: "graphics designer";
+    }
+    50%,75%
+    {
+        content: "android developer";
+    }
+    75%,100%
+    {
+        content: "script writer";
+    }
 }
