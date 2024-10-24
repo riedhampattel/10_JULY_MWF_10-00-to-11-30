@@ -239,7 +239,7 @@ hr
     {
         content: "software developer";
     }
-    25%,50%
+    25%,75%
     {
         content: "graphics designer";
     }
@@ -251,4 +251,94 @@ hr
     {
         content: "script writer";
     }
+}
+@media (max-width:430px)
+{
+    *
+    {
+        background-color: white;
+        color: black;
+    }
+    body
+    {
+        width: 294px;
+    }
+    header
+    {
+        display: block;
+        width: 294PX;
+        margin-top: 2rem;
+        margin-left: 0px;
+    }
+    .logo
+    {
+        margin-left: 6rem;
+    }
+    header nav
+    {
+        text-align: center;
+        margin-left: 0px;
+    }
+    header nav a
+    {
+        font-size: 1rem;
+        margin-right: 5px;
+    }
+    .main-content
+    {
+        margin: 1rem 0rem 0rem 0rem;
+    }
+    .main-content h1
+    {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .main-content h3
+    {
+        text-align: center;
+        font-size: 1rem;
+    }
+    .content
+    {
+        margin: 1rem 0rem 0rem 0rem;
+        width: 294px;
+        font-weight: 500;
+        font-size: 0.8rem;
+        text-align: center;    
+    }
+    .social-icons
+    {
+        margin: 1.5rem 0rem 0rem 0.3rem;
+        font-size: 35px;
+        text-align: center;
+    }
+    .social-icons a
+    {
+        margin-right: 1rem;
+        transition: 0.5s ease;
+    }
+    .btn
+    {
+        margin: 15.8rem 0rem 0rem 4.5rem;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .btn a
+    {
+    border: 5px solid brown;
+    border-radius: 50px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    transition: 0.5s ease;
+    }
+    .image
+    {
+        margin: -17rem 0rem 0rem 0rem;
+        text-align: center;
+    }
+    .image img
+    {
+        height: 200px;
+        width: 200px;
+    }
+
 }
